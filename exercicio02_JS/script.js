@@ -16,11 +16,11 @@ let deltaEdade = Math.abs(idade1 - idade2);
 console.table(
   {
       "Pessoa1": nome1 + " " + sobrenome1,
-      "Idade": idade1,
-      "Pais de Origem": paisdeorigem1,
+      "Idade1": idade1,
+      "Pais de Origem1": paisdeorigem1,
       "Pessoa2": nome2 + " " + sobrenome2,
-      "Idade": idade2,
-      "Pais de Origem": paisdeorigem2,
+      "Idade2": idade2,
+      "Pais de Origem2": paisdeorigem2,
   }
 )
 
@@ -33,6 +33,6 @@ if (idade1 < idade2) {
 }
 
 if (paisdeorigem1 == paisdeorigem2) {
-  console.log (`${nome1} e ${nome2} são de mesmo país. ${paisdeorigem1}`);
+  console.log (`${nome1} e ${nome2} são do mesmo país. ${paisdeorigem1}`);
 } else {
   console.log (`${nome1} é de ${paisdeorigem1} e ${nome2} é de ${paisdeorigem2}`);}
